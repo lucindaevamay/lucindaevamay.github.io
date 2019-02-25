@@ -1,0 +1,17 @@
+body {
+	margin: 50px 50px 50px 50px;
+    background-image: url("bg.jpg");
+    background-repeat: repeat-x;
+}
+
+h1 {
+	font-family: 'Fira Mono', monospace;
+	font-size: 75px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Fira Mono', monospace;
+	font-size: 25px;
+	font-weight: bold;
+}
