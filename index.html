@@ -1,20 +1,190 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Lucinda Eva-May" />
+        <meta name="keywords" content="Lucinda Eva-May, artist," />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>lucinda eva-may</title>
+        <link rel="stylesheet" href="css\lucinda.css">
+        <script src="js\lucinda.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <ul list>
+                <li><a onclick="showSection('home');">home</a></li>
+                <li><a onclick="showSubnav();">projects</a></li>
+                <div id="subnav">
+                    <ul>
+                        <li><a onclick="showSection('water');">always inclined towards water</a></li>
+                        <li><a onclick="showSection('wts');">watch this space residency</a></li>
+                        <li><a onclick="showSection('soap');">S.O.A.P.</a></li> 
+                        <li><a onclick="showSection('dissident');">dissident aesthetics</a></li>
+                        <li><a onclick="showSection('unity');">unity in light</a></li>
+                    </ul>
+                </div>    
+                <li><a onclick="showSection('cv');">cv</a></li>
+            </ul>
+        </div>
 
-<meta charset="utf-8">
-<meta name="author" content="Lucinda Eva-May" />
-<meta name="keywords" content="Lucinda Eva-May, artist," />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="lucinda.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+        <div id="content">
+            <div class="visible" id="home">
+                <h4>upcoming</h4>
+                <p><span class="name">Spring 1883</span> (John Street Studios Room) at The Establishment Hotel, Sydney, Australia. September 11th-14th, 2019.</p>
+            </div>
 
-<title>Lucinda Eva-May</title>
+            <div class="invisible" id="water">
+                <figure>
+                    <img src="portfolio/water/01.jpg" />
+                </figure>
 
-</head>
-	<body>
-		<h1>LUCINDA EVA-MAY</h1>
-		<h2>lucindaevamaykennedy@gmail.com</h2>
-	</body>
+                <figure>
+                    <img src="portfolio/water/02.jpg" />
+                </figure>
+            </div>
+
+            <div class="invisible" id="wts">
+                <figure>
+                    <img src="portfolio/wts/01.jpg" />
+                </figure>
+
+                <figure>
+                    <img src="portfolio/wts/02.jpg" />
+                </figure>
+
+                <figure>
+                    <img src="portfolio/wts/03.jpg" />
+                </figure>
+
+                <figure>
+                    <img src="portfolio/wts/04.jpg" />
+                </figure>
+                
+                <figure>
+                    <img src="portfolio/wts/05.jpg" />
+                    <figcaption>photo by Mimi Catterns, 2018</figcaption>
+                </figure>
+            </div>
+
+            <div class="invisible" id="soap">
+                <figure>
+                    <img src="portfolio/soap/01.jpg" />
+                </figure>
+
+                <figure>
+                    <img src="portfolio/soap/02.jpg" />
+                </figure>
+            </div>
+
+            <div class="invisible" id="dissident">
+                <figure>
+                    <img src="portfolio/dissident/01.jpg" />
+                </figure>
+
+                <figure>
+                    <img src="portfolio/dissident/02.jpg" />
+                </figure>
+            </div>
+
+            <div class="invisible" id="unity">
+                <figure>
+                    <img src="portfolio/unity/01.jpg" />
+                    <figcaption>image courtesy Govett-Brewster Gallery, 2016</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="portfolio/unity/02.jpg" />
+                    <figcaption>image courtesy Govett-Brewster Gallery, 2016</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="portfolio/unity/03.jpg" />
+                    <figcaption>image courtesy Monash Art Gallery, 2018</figcaption>
+                </figure>
+            </div>
+            
+
+            <div class="invisible" id="cv">
+                <h4>Lucinda Eva-May</h4>
+                <a href="mailto:lucindaevamaykennedy@gmail.com">lucindaevamaykennedy@gmail.com</a>
+
+                <div class="entry">
+                    <h4>Education</h4>
+                    <div class="year">2014</div>
+                    <div class="detail">Bachelor of Fine Arts (Visual Art) degree with First Class Honours, Victorian College of the Arts, University of Melbourne</div>
+				    <div class="year">2012</div>
+                    <div class="detail">Bachelor of Visual Arts, Majoring in Photography, Australian National University</div>
+					
+                    <div class="year">2012</div>
+				    <div class="detail">Bachelor of Arts,  Australian National University</div>
+					
+                    <div class="year">2011</div>
+				    <div class="detail">Semester Abroad at Emily Carr University, Vancouver, Canada</div>
+                </div>
+				
+                <div class="entry">
+                    <h4>Selected Exhibitions</h4>
+					<div class="year">2019</div>
+					<div class="detail"><span class="name">Spring 1883</span> (John Street Studios Room) at The Establishment Hotel, Sydney (FORTHCOMING in September)</div>
+					
+                    <div class="year">2018</div>
+					<div class="detail"><span class="name">Open Studio</span> at Watch This Space, Alice Springs</div> 
+					
+                    <div class="year">2018</div>
+					<div class="detail"><span class="name">Antipodean Emanations</span>, Monash Gallery of Art, Melbourne. Curated by Stella Loftus-Hill</div>
+					
+                    <div class="year">2017</div>
+                    <div class="detail"><span class="name">Transmit Politic</span>, ANU School of Art Gallery, Canberra. Curated by Anja Loughhead</div>
+					
+                    <div class="year">2016</div>
+					<div class="detail"><span class="name">Emanations: The Art of the Cameraless Photograph</span>, Govett-Brewster Art Gallery, New Plymouth, New Zealand. Curated by Geoffrey Batchen</div>
+					
+                    <div class="year">2016</div>
+					<div class="detail"><span class="name">S.O.A.P. Collective at KINGS</span>, Kings Artist Run Initiative, Melbourne</div>
+					
+                    <div class="year">2015</div>
+					<div class="detail"><span class="name">The Alchemists: Rediscovering photography in the age of the JPEG</span>, Australian Centre for Photography, Sydney. Curated by Suzanne Buljan, Cherine Fahd and Martyn Jolly</div>
+					
+                    <div class="year">2015</div>
+					<div class="detail"><span class="name">Transformational Gestures</span>, Trocadero Art Space, Melbourne</div>
+                	
+                    <div class="year">2015</div>
+                    <div class="detail"><span class="name">Transformational Gestures</span>, Mils Gallery, Sydney</div>
+					
+                    <div class="year">2015</div>
+                    <div class="detail"><span class="name">S.O.A.P. Collective: Archiving and Fragmentation in the Digitial Age</span>, Fort Delta, Melbourne</div>
+					
+                    <div class="year">2014</div>
+					<div class="detail"><span class="name">VCA Graduate Exhibition</span>, Victorian College of Art, Melbourne</div>
+					
+                    <div class="year">2014</div>
+					<div class="detail"><span class="name">saunter over to disclose, copy, distribute, disseminate, or take any info please</span>, VCA Student Gallery, Melbourne</div>
+				</div>
+				
+				<div class="entry">
+                    <h4>Other Activities</h4>
+					<div class="year">2018</div>
+					<div class="detail">Travelling Artist in Residence including an Open Studio event at Watch This Space, Alice Springs for one month</div>
+					
+                    <div class="year">2018</div>
+                    <div class="detail">Panel Discussion Monash Gallery of Art as a part of <span class="name">Antipodean Emanations</span></div>
+					
+                    <div class="year">2015-2016</div>
+					<div class="detail">Member of <span class="name">S.O.A.P. Collective</span></div>
+				</div>
+				
+				<div class="entry">
+                    <h4>Awards and Grants</h4>
+					<div class="year">2014</div>
+					<div class="detail">Stirling Collective Award from the Victorian College of Art</div>
+					
+                    <div class="year">2011</div>
+					<div class="detail">Nigel Thompson Travelling Grant from the Australian National University</div>
+				</div>
+
+            </div>
+        </div>
+    </body>
 </html>
+

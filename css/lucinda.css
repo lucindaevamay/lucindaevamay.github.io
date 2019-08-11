@@ -1,0 +1,68 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a:link, a:visited {
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover {
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#nav {
+  min-width: 260px;
+  float: left;
+}
+
+#subnav {
+    visibility: hidden; /* hidden initially */
+    display: none;      /* hidden initially */
+    padding-left: 5%;
+    font-style: italic;
+}
+
+
+#content {
+  width: 60%;
+  padding-left: 2%;
+  float: left;
+}
+
+.visible {
+    visibility: visible;
+    display: block;
+}
+
+.invisible {
+    visibility: hidden;
+    display: none;
+}
+
+.entry {
+    display: inline-block;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.year {
+    width: 19%;
+    float: left;
+}
+
+.detail {
+    width: 81%;
+    float: left;
+}
+
+.name {
+	font-style: italic;
+}
