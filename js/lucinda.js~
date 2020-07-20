@@ -9,10 +9,7 @@ function showSubnav() {
     }
 }
 
-const sections = [
-    "home", "road", "water", "wts", "soap", "dissident", "unity", "cv"
-];
-
+const sections = ["home", "water", "wts", "soap", "dissident", "unity", "cv"];
 function showSection(name) {
     sections.forEach(hideSection);
     document.getElementById(name).className = "visible";
